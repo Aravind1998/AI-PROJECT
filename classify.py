@@ -32,7 +32,7 @@ for i in range(0,21000):
     if p[i]==actual_label[i]:
         count+=1
 
-#sample test data (csv-2) , We now predict an image
+#sample test data (csv) , We now predict an image
 d=xtest[x]
 d.shape=(28,28)
 pt.imshow(255-d,cmap='gray')
